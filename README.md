@@ -3,9 +3,8 @@
 After cloning repository, you need to install these dependencies:
 - NPM
 - Cypress
-- @badeball/cypress-cucumber-preprocessor
-- @bahmutov/cypress-esbuild-preprocessor -D
-- Cucumber
+- Cucumber -> @badeball/cypress-cucumber-preprocessor
+- Cucumber -> @bahmutov/cypress-esbuild-preprocessor -D
 
 If you dont have the extensions already installed in VScode, you will need these for cucumber to work:
 - Cucumber (Gherkin) Full Support -> Alexander Krechik
