@@ -38,20 +38,10 @@ npm install @badeball/cypress-cucumber-preprocessor -D
 npm install @bahmutov/cypress-esbuild-preprocessor -D
 ```
 
-# Configure Environment Variables
-
+## Install the dotenv dependency
 This is used to protect sensitive or environment-specific data
 
 Advantage: Secure and flexible test configurations
-
-## Install the dotenv dependency
-
 ```
 npm install dotenv -D
-```
-
-## Create a .env File
-
-```
-touch .env
 ```
