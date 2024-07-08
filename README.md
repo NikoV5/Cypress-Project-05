@@ -38,21 +38,6 @@ npm install @badeball/cypress-cucumber-preprocessor -D
 npm install @bahmutov/cypress-esbuild-preprocessor -D
 ```
 
-## Write Your Actual Code
-``` javascript
-/// <reference types="cypress" />
-import { Given, Then } from "@badeball/cypress-cucumber-preprocessor";
-
-Given("I am on the TechGlobal Home Page", () => {
-    cy.visit('https://techglobal-training.com/')
-});
-
-Then("I should see the url and title properly displayed", () => {
-    cy.title().should('eq', 'TechGlobal Training | Home')
-    cy.url().should('contain', 'techglobal-training')
-});
-```
-
 # Configure Environment Variables
 
 This is used to protect sensitive or environment-specific data
