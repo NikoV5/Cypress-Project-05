@@ -1,14 +1,19 @@
-# Set up a New Project
+# Prerequisites
 
-Make sure Node.js is installed on your machine
+After cloning repository, you need to install these dependencies:
+- NPM
+- Cypress
+- @badeball/cypress-cucumber-preprocessor
+- @bahmutov/cypress-esbuild-preprocessor -D
+- Cucumber
 
-Ensure your favorite IDE installed on your machine (VS Code)
-
-Create an empty directory for your project (cypress-automation)
+If you dont have the extensions already installed in VScode, you will need these for cucumber to work:
+- Cucumber (Gherkin) Full Support -> Alexander Krechik
+- Cuke Step Definition Generator -> Muralidharan Rajendran
 
 ## Initialize The Project
 
-Open the directory in the IDE and initialize a Node.js project
+Once you open your framework, initialize it as a node.js project with the following command:
 
 ```bash
 npm init -y
@@ -18,13 +23,6 @@ npm init -y
 
 ```bash
 npm install cypress -D
-```
-
-## Open Cypress
-This will create a cypress folder with default directories and configuration files.
-
-```bash
-npx cypress open
 ```
 
 ## Install @badeball/cypress-cucumber-preprocessor
@@ -39,16 +37,6 @@ npm install @badeball/cypress-cucumber-preprocessor -D
 ```bash
 npm install @bahmutov/cypress-esbuild-preprocessor -D
 ```
-
-## Configure Visual Studio Code and Install Extensions
-
-1. VSCode Cucumber (Gherkin) Language Support + Format + Steps/PageObjects Autocomplete:
-
-This extension adds rich language support for the Cucumber (Gherkin) language to VS Code
-
-2. Cuke Step Definition Generator:
-
-This extension will help the user by generating the Cucumber Glue / Step Definition snippet for the selected statement. It will come as very handy while working with Cucumber JS in VS Code.
 
 ## Write Your Actual Code
 ``` javascript
