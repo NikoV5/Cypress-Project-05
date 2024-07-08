@@ -5,6 +5,7 @@ After cloning repository, you need to install these dependencies:
 - Cypress
 - Cucumber -> @badeball/cypress-cucumber-preprocessor
 - Cucumber -> @bahmutov/cypress-esbuild-preprocessor -D
+- dotenv dependency 
 
 If you dont have the extensions already installed in VScode, you will need these for cucumber to work:
 - Cucumber (Gherkin) Full Support -> Alexander Krechik
