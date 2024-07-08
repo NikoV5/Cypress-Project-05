@@ -55,10 +55,3 @@ npm install dotenv -D
 ```
 touch .env
 ```
-
-## Add Environment Variables
-
-```
-baseURL=https://www.techglobal-training.com/
-```
-
