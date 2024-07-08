@@ -40,17 +40,6 @@ npm install @badeball/cypress-cucumber-preprocessor -D
 npm install @bahmutov/cypress-esbuild-preprocessor -D
 ```
 
-## Introduction
-The cypress-cucumber-preprocessor adds support for using feature files when testing with Cypress.
-
-```gherkin
-Feature: TechGlobal Home Page
-
-  Scenario: Validate the Logo
-    Given I am on the TechGlobal Home Page
-    Then I should see the logo
-```
-
 ## Update cypress.config.js with below code
 
 ```javascript
